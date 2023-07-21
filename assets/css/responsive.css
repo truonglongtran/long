@@ -1,0 +1,327 @@
+@media (max-width: 576px){
+
+    html{
+        width: 100%;
+    }
+    header{
+        width: 100% ;
+        margin: none;
+        height: 50px;
+        display: block;
+    }
+
+    .header_menu{
+        margin: none;
+        width: 100%;
+        margin: none;
+        display: block;
+        padding: 13px 20px;
+        width: 100%;
+    }
+
+    .header_menu .toggle{
+      
+    }
+
+    .header_menu .toggle .bxmenu{
+        display: block;
+        position: absolute;
+        right: 20px;
+    }
+
+    .menu{
+        display: none;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top:50px;
+        
+    }
+
+    .menu_button{
+        width: 100%;
+        padding: 13px 20px;
+        margin: 0px 0;
+        background-color: #fff;
+    }
+
+    .menu_button:hover, .menu_button a:hover{
+      background-color: #44A1B2;
+    }
+
+    .menu_button a:hover{
+      color: #fff;
+    }
+
+     .header_menu .logo{
+        height: 100%;
+        position: absolute;
+        left: 20px;
+        width: 131px;
+        height: 23.66px;
+    }
+
+    .header_menu .line{
+        display: none;
+    }
+    .header_avatar{
+        display: none;
+    }
+    .active{
+        display: block;
+
+    }
+    .container{
+    }
+    
+    .container .container_heading{
+        display: none;
+    }
+    .container_content{
+        width: 100%;
+        display: block;
+      }
+    .container_content .sidebar ul{
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_content .sidebar ul li{
+        text-align: center;
+    }
+
+    .sidebar_item {
+        position: relative;
+        padding-bottom: 5px; /* Khoảng cách dòng kẻ ngang với chữ */
+      }
+      
+      .sidebar_item::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 3px; /* Điều chỉnh chiều cao của dòng kẻ ngang */
+        width: 100%;
+        background-color: #44A1B2; /* Màu của dòng kẻ ngang */
+        transform: scaleX(0); /* Đầu tiên ẩn dòng kẻ ngang */
+        transition: transform 0.3s ease-in-out; /* Thêm hiệu ứng chuyển động */
+      }
+      
+      .sidebar_item:hover::after {
+        transform: scaleX(1); /* Khi hover vào mục menu, hiển thị dòng kẻ ngang */
+      }
+      
+
+    .container_content .sidebar ul li a{
+        display:  inline;
+        text-align: center;
+        color: #2B5472;
+        text-decoration: none;
+        padding: 10px 20px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+
+    .container_content .sidebar ul li img{
+        display: none;
+    }
+
+    .container_content .maincontent{
+        padding: 0 30px;
+    }
+
+    .maincontent .content_menu{
+        display: none;
+    }
+
+    .maincontent .combobox{
+        display: flex;
+        width: 100%;
+        padding: 10px 5px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        align-items: center;
+        justify-content: center;
+        border-radius: 12px;
+    }
+
+    .maincontent .combobox option{
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .container_content .additional{
+        display: none;
+    }
+    
+    footer {
+        width: 100%;
+        background-color: #2B5472;
+        padding: 32px 24px;
+    }
+
+    .left-column {
+        width: 100%;
+        padding: 0 10px;
+      }
+      
+    .right-column {
+        width: 100%;
+        display: block;
+        padding: 0 0 0 10px ;
+    }
+      
+    .column {
+        margin-top: 40px;
+
+    }
+
+    .social-links{
+        width: 100%;
+        display: flex;
+    }
+
+    .social-links li {
+        margin-bottom: 0;
+        margin: 20px;
+    }   
+}   
+
+
+@media (min-width: 576px){
+    .header_menu .toggle .bxmenu{
+        display: none;
+    }
+
+    .header_menu .menu{
+        display: flex;
+        width: 591px;
+        height: 44px;
+        align-items: center;
+      }
+    .header_menu{
+        margin: 13px 0 0 80px;
+        display: flex;
+    }
+
+    .container{
+        width: 1440px;
+        height: auto;
+        padding: 40px 120px 40px 120px;
+    }
+
+    .container_content{
+        width: 1214px;
+        height: auto;
+        margin-top: 40px;
+        display: flex;
+    }
+    .container .container_heading{
+        width: 201px;
+        height: 46px;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -2%;
+        text-align: center; 
+        color: #2B5472; 
+      }
+      .container_content .sidebar{
+        display: flex;
+        width: 189px;
+        height: 144px;
+        justify-content: center;
+      }
+
+      .container_content .sidebar ul li{
+        display: flex;
+        list-style-type: none;
+        width: 144px;
+        height: 30px;
+        align-items: center;
+      }
+
+      .container_content .sidebar ul li a{
+        text-decoration: none;
+        align-items: center;
+        line-height: 30px;
+        display: flex;
+        color: #44A1B2;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25.2px;
+        letter-spacing: -1%;
+      }
+      .sidebarcenter{
+        margin: 13px 0;
+      }
+
+      .sidebar_item:hover {
+        position: relative;
+      }
+      
+      .sidebar_item:hover::before {
+        content: "";
+        position: absolute;
+        left: -5px;
+        top: 0;
+        height: 100%;
+        width: 3px;
+        background-color: #44A1B2; /* Màu của gạch dọc */
+      }
+      
+      .maincontent{
+        width: 613px;
+      }
+
+      .maincontent .combobox{
+        display: none;
+    }
+
+    footer {
+        width: 1440px;
+        height: 322px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #2B5472;
+        padding: 60px 80px;
+        height: 400px;
+        position: relative;
+        color: #fff;
+    }
+    .left-column {
+        width: 40%;
+        padding: 0 10px;
+      }
+      
+      .right-column {
+        width: 60%;
+        display: flex;
+        padding: 0 0 0 100px ;
+      }
+      
+      .column {
+        width: 170px;
+        flex: 1;
+      }
+
+      .social-links{
+        display: flex;
+      }
+
+      .social-links li {
+        margin-bottom: 0;
+        display: inline-block;
+        margin: 20px;
+      }
+
+      .chat-button{
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+      }
+}

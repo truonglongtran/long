@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 1440px;
+  height: 70px;
+  color: #ffffff;
+  display: flex;
+}
+
+.header_menu{
+  width: 796px;
+  height: 44px;
+  align-items: center;
+}
+
+.header_menu .toggle{
+}
+
+.header_menu .logo{
+  width: 190px;
+  height: 30.7px;
+}
+
+.header_menu .line{
+  border: 1px solid #2B5472;
+  transform: rotate(90deg);
+  width:25px;
+}
+
+.header_menu .menu{
+  z-index: 10000;
+  list-style: none;
+}
+
+.header_menu .menu .menu_button a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 15px;
+  line-height: 17.25px;
+}
+
+.header_avatar{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  float: right;
+  Top: 15px;
+  Left:1300px;
+}
+
+/*Container*/
+
+.container .container_heading{
+
+}
+
+.container_content .sidebar ul li a img{
+  width:18px;
+  height:18px;
+}
+
+
+
+.content_menu {
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .content_menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content_menu ul li {
+    flex: 1;
+    text-align: center;
+  
+  }
+  
+  .content_menu ul li a {
+    height: 40px;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid rgba(32, 22, 22, 0.2);
+    padding: 8px 20px;
+  }
+  
+  .content_menu ul li:first-child a {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  
+  .content_menu ul li:last-child a {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .content_menu ul li a:hover {
+    background-color: #44A1B2;
+    color: #FFFFFF;
+  }
+
+  .contentchild{
+    border-radius: 10px;
+    border: 0.5px solid  rgba(32, 22, 22, 0.2);
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .header_contentchild{
+    display: flex;
+    position: relative;
+  }
+
+  .buttonbookmark{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+    top: 15px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: #fff;
+  }
+
+  .buttonbookmark:active{
+    background-color: #44A1B2;
+    
+  }
+
+  .heading_contentchild{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.68px;
+    letter-spacing: -2%;
+    color: #2B5472;
+  }
+
+  .information_contentchild{
+    display: inline-flex;
+  }
+
+  .information_contentchild p{
+    display: flex;
+    background-color: #fff;
+    padding:4px;
+    margin: 5px 10px 5px 0;
+    color: #55879C;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5%;
+  }
+
+  .describe_contentchild{
+    line-height: 21px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+
+  .select_contentchild{
+    margin-top: 18px;
+  }
+
+  .select_contentchild_button{
+    background-color: #f0f0f0;
+    padding: 5px 10px 7px 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .buttonmorecontent{
+    text-align: center;
+  }
+
+  .buttonmorecontent a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900px;
+    color: #2B5472;
+  }
+
+  .additional {
+    background-color: #fff;
+    padding: 20px;
+    width: 292px;
+  }
+  
+  .container_addinformation_profile{
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+  }
+
+  .wall_profile{
+    width: 100%;
+  }
+
+  .container_addinformation_profile .name{
+    width: 100%;
+    height: 28px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.68px;
+    letter-spacing: -2%;
+    color: #2B5472;
+  }
+
+  .container_addinformation_profile .describe_name{
+    padding: 4px 0;
+    width: 100%;
+    height: 25px;
+    font-size: 10px;
+    letter-spacing: -1%;
+    line-height: 16.8px;
+    font-weight: 600px;
+
+  }
+
+  .container_addinformation_profile .location{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.5%;
+    color: #11243C;
+  }
+
+  .container_addinformation_profile .information{
+    padding: 40px 20px 20px;
+  }
+
+  .avatar_profile{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+  }
+
+  .avatar_profile .avatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+  }
+
+  .avatar_profile .description_avatar{
+    width: 70%;
+    float: right;
+    background-color: #fff;
+    position: absolute;
+    left: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 0 10px 50px ;
+    margin-top: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 13px;
+  }
+
+  .container_addinformationpdf{
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    padding: 20px 25px;
+  }
+
+  .container_addinformationpdf{
+    padding-top: 20px;
+  }
+
+  .container_addinformationpdf .heading{
+    font-size: 18px;
+    font-weight: 600px;
+    line-height: 24.91px;
+    letter-spacing: -2%;
+    color: #2B5472;
+  }
+
+  .container_addinformationpdf hr{
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .container_addinformationpdf .list{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19.6px;
+    letter-spacing: -1%;
+    color: #2B5472;
+    padding: 5px 0;
+  }
+  
+  .container_addinformationpdf a{
+    text-decoration: none;  
+  }
+
+  .container_addinformationpdf img{
+    float: right;
+    width: 20px;
+  }
+
+  .container_addinformationpdf button{
+    padding: 8px 12px 12px 12px;
+    border: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    gap: 4px;
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19.6px;
+    letter-spacing: -1%;
+    width: 200px;
+  }
+
+
+
+  /*Footer*/
+/*Footer*/
+
+
+
+
+.heading_footer{
+  width: 455px;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #fff;
+  padding-right: 30px;
+}
+
+.heading_footer_list{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.heading_footer, .heading_footer_list {
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+.social-links li a{
+  color: #fff;
+  font-size: 28px;
+}
+
+.column ul li{
+  margin-bottom: 10px;
+}
+
+.column ul li a{
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+.chat-button {
+  margin-left: auto;
+  background-color: #44A1B2;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.chat-button a {
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
